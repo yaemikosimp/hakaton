@@ -1,0 +1,762 @@
+* {
+   width: 390px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+body {
+   margin: 0px;
+   background-color: #0C5AA6;
+
+
+}
+
+.container {
+   font-weight: bold;
+}
+
+
+#searchh {
+   width: 375px;
+   border-radius: 5px;
+}
+
+.search {
+   padding-top: 12px;
+   text-align: center;
+}
+
+.main_name {
+   display: flex;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+
+.registration {
+   font-size: 12px;
+   padding-left: 100px;
+   word-spacing: 12px;
+}
+
+.container_2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding-top: 12px;
+   justify-items: center;
+
+}
+
+.block {
+   background-color: white;
+   width: 100px;
+   height: 100px;
+   border-radius: 30px;
+}
+
+.block_2 {
+   background-color: white;
+   width: 100px;
+   height: 100px;
+   border-radius: 30px;
+}
+
+.block_3 {
+   background-color: white;
+   width: 100px;
+   height: 100px;
+   border-radius: 30px;
+}
+
+.header_left img {
+   width: 35px;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+
+.container_3_block {
+   width: 350px;
+   height: 70px;
+   background-color: #FF9900;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+   width: 350px;
+   justify-content: space-around;
+   color: white;
+}
+
+
+
+
+
+
+.container_3 {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+
+
+
+
+}
+
+.container_3_block_left {
+   text-align: center;
+   color: white;
+
+}
+
+.container_3_block_right {
+   text-align: center;
+   color: white;
+}
+
+
+
+.bloki {
+   display: grid;
+   grid-template-columns: 150px 150px;
+   justify-content: space-around;
+   width: 390px;
+   padding-left: 20px;
+   padding-top: 25px;
+}
+
+.bloki_1_left,
+.bloki_1_right {
+   width: 125px;
+   height: 125px;
+   background-color: white;
+   border-radius: 30px;
+   margin-top: 30px;
+
+}
+
+.bloki_2_left,
+.bloki_2_right {
+   width: 125px;
+   height: 125px;
+   background-color: white;
+   border-radius: 30px;
+   margin-top: 30px;
+}
+
+.bloki_3_left,
+.bloki_3_right {
+   width: 125px;
+   height: 125px;
+   background-color: white;
+   border-radius: 30px;
+   margin-top: 30px;
+}
+
+.bloki_4_left,
+.bloki_4_right {
+   width: 125px;
+   height: 125px;
+   background-color: white;
+   border-radius: 30px;
+   margin-top: 30px;
+}
+
+
+.hidden {
+   display: none !important;
+}
+
+.container_2_main_name {
+   text-align: center;
+}
+
+.photo_2 {
+
+   padding-top: 24px;
+}
+
+.photo {
+   padding-top: 24px;
+}
+
+.photo_3 {
+
+   padding-top: 24px;
+}
+
+.block_katalog {
+   display: flex;
+
+}
+
+.block_katalog_2 {
+   display: flex;
+}
+
+.block_katalog_3 {
+   display: flex;
+}
+
+.container_3_block_name {
+   text-align: center;
+}
+
+.otzivi {
+   display: flex;
+   text-align: center;
+
+}
+
+.otziv_block {
+   display: grid;
+   grid-gap: 15px;
+   justify-content: center;
+   border-radius: 30px;
+}
+
+.otziv_block_1 {
+   width: 350px;
+   height: 40px;
+   background-color: white;
+   ;
+   border-radius: 30px;
+   ;
+
+
+
+}
+
+.otziv_block_1 {
+   width: 350px;
+   height: 70px;
+   background-color: white;
+   ;
+   border-radius: 30px;
+   ;
+}
+
+.otziv_block_1 {
+   width: 350px;
+   height: 70px;
+   background-color: white;
+   ;
+   border-radius: 30px;
+   ;
+}
+
+.search_2 {
+   padding-top: 100%;
+   display: flex;
+   justify-content: center;
+   height: 60px;
+
+}
+
+#searchh_2 {
+   background-color: #FF9900;
+   border-radius: 30px;
+}
+
+.container_3_otzivi {
+   text-align: center;
+   justify-content: center;
+}
+
+.recept_nedeli_block {
+
+   width: 358px;
+   height: 350px;
+   background-color: #FF9900;
+
+   border-radius: 30px;
+
+}
+
+.recept_nedeli {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 30px;
+
+
+}
+
+.recept_nedeli_block_name {
+   color: white;
+   padding-left: 115px;
+   font-weight: bold;
+   padding-top: 24px;
+}
+
+.resept_photo {
+   display: flex;
+   padding-top: 24px;
+   width: 190px;
+   height: 180px;
+   padding-left: 9px;
+
+}
+
+.resept_nedeli_information_block {
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+
+}
+
+.resept_nedeli_information {
+   width: 358px;
+   height: 300px;
+   background-color: rgba(0, 0, 0, 0.18);
+   border-radius: 30px;
+}
+
+.resept_nedeli_information_text {
+   color: white;
+   text-align: center;
+   width: 340px;
+   padding-top: 24px;
+   padding-left: 8px;
+}
+
+.header_right img {
+   width: 50px;
+   padding-left: 140px;
+}
+
+header {
+   display: flex;
+   justify-content: space-around;
+}
+
+.korzina_block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 70px;
+
+}
+
+.korzina {
+   width: 358px;
+   height: 71px;
+   background-color: rgba(0, 0, 0, 0.18);
+   border-radius: 30px;
+
+}
+
+.korzina_name {
+   padding-left: 145px;
+   padding-top: 28px;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.oformlenie_block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+
+}
+
+.oformlenie {
+   width: 358px;
+   height: 70px;
+   background-color: #FF9900;
+   border-radius: 30px;
+
+}
+
+.oformlenie_name {
+   font-family: 'Montserrat', sans-serif;
+
+
+   color: white;
+
+   padding-left: 130px;
+   padding-top: 24px;
+
+}
+
+.plusik_block {
+   display: flex;
+   padding-top: 550px;
+   padding-left: 80%;
+}
+
+.plusik {
+   width: 50px;
+   height: 50px;
+   border-radius: 100px;
+   background-color: white;
+
+}
+
+.plusik_name {
+   display: flex;
+   padding-left: 21px;
+   padding-top: 16px;
+
+}
+
+.search_3 {
+   padding-top: 32px;
+   text-align: center;
+
+}
+
+.img_information {
+   padding-top: 50px;
+
+}
+
+.main_name_information {
+   display: flex;
+   color: white;
+   justify-content: space-around;
+   padding-top: 60px;
+
+
+}
+
+.main_name_information_free {
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+
+
+
+
+
+
+}
+
+.main_name_information_two {
+   width: 358px;
+   height: 101px;
+   border-radius: 30px;
+   background: rgba(0, 0, 0, 0.18);
+   display: flex;
+   align-items: center
+}
+
+.main_name_information_4 {
+   display: flex;
+   justify-content: center;
+   padding-top: 50px ;
+}
+
+.main_name_information_5 {
+   width: 358px;
+   height: 408px;
+   background: rgba(0, 0, 0, 0.18);
+   border-radius: 30px;
+}
+
+.soc_seti_block {
+   display: flex;
+   padding-top: 25px;
+
+   padding-left: 40px;
+}
+
+.soc_seti_block_1 {
+
+   width: 40px;
+   height: 40px;
+   background: white;
+   border-radius: 75px;
+
+
+}
+
+.soc_seti_block_2 {
+
+   width: 40px;
+   height: 40px;
+   background: white;
+   border-radius: 75px;
+
+}
+
+.soc_seti_block_3 {
+
+   width: 40px;
+   height: 40px;
+   background: white;
+   border-radius: 75px;
+
+}
+
+.main_container {
+   font-family: 'Montserrat', sans-serif;
+   padding-top: 100px;
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.main_container_block_vhodd {
+   width: 358px;
+   height: 70px;
+   background: rgba(0, 0, 0, 0.18);
+   border-radius: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.main_container_vhod {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+
+}
+
+.main_container_block_vhodd_name {
+   padding-top: 22px;
+   padding-left: 170px;
+
+}
+
+.main_container_vhod_name {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+}
+
+#vhod_registration {
+   background:white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+}
+
+#password_registration {
+   background: white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+}
+
+.main_container_vhod_2 {
+   padding-top: 24px;
+   display: flex;
+   justify-content: center;
+}
+
+.main_container_vhod_3 {
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+}
+
+.nomain_container_vhod_3 {
+   width: 282px;
+   height: 50px;
+   background: #FF5300;
+   border-radius: 30px;
+}
+
+.nomain_container_vhod_3_name {
+   display: flex;
+   padding-left: 95px;
+   padding-top: 15px;
+}
+
+.main_container_registration_block {
+   font-family: 'Montserrat', sans-serif;
+   padding-top: 100px;
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.main_container_registration {
+   width: 358px;
+   height: 70px;
+   background: rgba(0, 0, 0, 0.18);
+   border-radius: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.main_container_registration_name {
+   padding-top: 25px;
+   padding-left: 140px;
+}
+
+#main_registration_menu_pochtaa {
+   background: white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+
+}
+
+#main_registration_menu_loginn {
+   background: white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+
+}
+
+#main_registration_menu_passwordd {
+   background: white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+
+}
+
+#main_registration_menu_passwordd_2 {
+   background: white;
+   border-radius: 30px;
+   width: 358px;
+   height: 50px;
+
+}
+
+.main_registration_menu_pochta {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+
+}
+
+.main_registration_menu_login {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+
+}
+
+.main_registration_menu_password {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+
+}
+
+.main_registration_menu_password_2 {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+
+}
+
+.header_mid {
+   display: flex;
+   width: 5px;
+   padding-left: 150px;
+}
+
+.block_katalog_2_img {
+   display: flex;
+   width: 2px;
+   padding-bottom: 124px;
+   padding-left: 24px;
+   padding-top: 12px;
+}
+
+.block_katalog_2_img_namee {
+   display: flex;
+   
+   padding-top: 72px;
+}
+
+.block_katalog_img {
+   display: flex;
+   width: 2px;
+   padding-bottom: 124px;
+   padding-left: 24px;
+   padding-top: 12px;
+
+}
+
+.block_katalog_img_name {
+   display: flex;
+ 
+   padding-top: 72px;
+}
+
+.block_katalog_3_img {
+   display: flex;
+   width: 2px;
+   padding-bottom: 124px;
+   padding-left: 24px;
+   padding-top: 12px;
+}
+
+.block_katalog_3_img_namee {
+   display: flex;
+   
+   padding-top: 72px;
+}
+
+.bloki_1_left_img {
+   display: flex;
+   width: 1px;
+}
+
+.bloki_1_right_img {
+   display: flex;
+   width: 1px;
+   padding-left: 20px;
+}
+
+.bloki_2_left_img {
+   display: flex;
+   width: 1px;
+}
+
+.bloki_2_right_img {
+   display: flex;
+   width: 1px;
+}
+
+.bloki_3_left_img {
+   display: flex;
+   width: 1px;
+}
+
+.bloki_3_right_img {
+   display: flex;
+   width: 1px;
+   padding-left: 20px;
+}
+
+.bloki_4_left_img {
+   display: flex;
+   width: 1px;
+   padding-left: 20px;
+}
+
+.bloki_4_right_img {
+   display: flex;
+   width: 1px;
+}
+
+.bloki_1_main_same {
+   padding-left: 22px;
+}
+
+.bloki_1_orange_buy {
+   display: flex;
+   width: 80px;
+   height: 15px;
+   background-color: #FF9900;
+   border-radius: 30px;
+}
+
+.bloki_1_orange_buy_name {
+   font-size: 12px;
+   text-align: center;
+}
