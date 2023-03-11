@@ -668,7 +668,7 @@ header {
 
 .block_katalog_2_img_namee {
    display: flex;
-   
+ 
    padding-top: 72px;
 }
 
@@ -759,4 +759,159 @@ header {
 .bloki_1_orange_buy_name {
    font-size: 12px;
    text-align: center;
+}
+.photo_information{
+   padding-top: 24px   ;
+   display: flex;
+   justify-content: center;
+}
+.photo_information_block{
+   width: 358px;
+height: 197px;
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+}
+.photo_information_text{
+   color: white;
+   display: flex;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+.oplata_block{
+display: flex;
+justify-content: center;
+}
+.oplata_block_main{
+   width: 358px;
+height: 246px; 
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+}
+.oplata_block{
+   background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+color: white;
+align-items: center;
+text-align: center;
+font-size: 25px;
+margin-top: 70px;
+height: 150px;
+}
+#da{
+   
+   border-radius: 30px;
+   
+}
+.itogo_block_main{
+   display: flex;
+   justify-content: center;
+   padding-top: 70px;
+}
+.itogo_block{
+   width: 358px;
+height: 92px;  
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+
+}
+.itogo_block_name{
+   color: white;
+   padding-left: 20px;
+   padding-top: 35px ;
+}
+.itogo_block_2{
+   width: 358px;
+   height: 92px;  
+   background-color:  #FF9900;;
+   border-radius: 30px;
+   
+}
+.itogo_block_2_name{
+   color: white;
+   padding-left: 140px;
+   padding-top: 35px;
+   
+}
+.itogo_block_main_2{
+   display: flex;
+   justify-content: center;
+   padding-top: 70px;
+}
+.main_name_information_5_name{
+   color: white;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-top: 10px;
+}
+.parol_zabil{
+   padding-top: 15px;
+   padding-left: 230px;
+}
+.otziv_block_1_text{
+  padding-left: 30px;
+  padding-top: 7px;
+}
+.block_product{
+   display: flex;
+   justify-content: center;
+   padding-top: 24px;
+}
+.block_product_main_infa{
+   width: 358px;
+      height: 358px;
+      background: white;
+      border-radius: 30px;
+}
+.block_product_infa{
+   
+width: 325px;
+height: 54px;
+
+background: #FF5300;
+border-radius: 30px;
+}
+.cena{
+   padding-left: 145px;
+   padding-top: 20px;
+}
+.block_product_same_main_infa{
+   padding-top: 300px;
+   padding-left: 17px;
+}
+.main_block_product_blue{
+   display: flex;
+   justify-content: center ;
+   padding-top: 24px;
+}
+.block_product_blue{
+   width: 358px;
+height: 292px;
+
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+}
+.block_product_blue_text{
+   color: black;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+.v_korzinu_main{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.v_korzinu{
+   width: 358px;
+   height: 70px;
+   
+   background: #FF5300;
+   border-radius: 30px;
+}
+.v_korzinu_text{
+   color: white;
+   padding-left: 135px;
+   padding-top: 20px;
 }
