@@ -915,3 +915,70 @@ border-radius: 30px;
    padding-left: 135px;
    padding-top: 20px;
 }
+.profil_ava_main{
+   display: flex;
+   justify-content: center;
+}
+.profil_ava{
+   width: 150px;
+   height: 150px;
+   border-radius: 100px;
+   background-color: white;
+}
+.search_profil_1{
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+#searchh_profil_1{
+   width: 358px;
+height: 58px;
+background: #FF9900;
+border-radius: 30px;
+}
+.search_profil_2{
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+#searchh_profil_2{
+   width: 358px;
+height: 58px;
+background: #FF9900;
+border-radius: 30px;
+}
+.oplata_profil_block{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+}
+.oplata_profil{
+   width: 358px;
+height: 115px;
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+
+}
+.oplata_profil_text{
+   color: white;
+   padding-left: 115px;
+   padding-top: 50px;
+}
+.voiti_block_main{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+
+}
+.voiti_block{
+   width: 358px;
+height: 58px;
+
+background: rgba(0, 0, 0, 0.18);
+border-radius: 30px;
+}
+.voiti_block_text{
+   padding-top: 17px;
+   padding-left: 150px;
+color: white;
+}
